@@ -21,9 +21,9 @@ font-weight: 800;
     background: #FD6E0A;
     border: none;
     font-size: 20px;
-font-style: normal;
+font-style: n;
 font-weight: 700;
- color: white;
+ color:white;
  }
 nav{
     display: flex;
@@ -43,3 +43,13 @@ nav li {
 nav a{
     text-decoration: none; color: #474747;
 }
+ header{
+    background-color:#FFF8F3;
+ }
+.hardy-mama{
+    padding: 30px 30px 30px 150px;
+    display: flex;}
+
+.propail{
+        width: 400px;
+    }
