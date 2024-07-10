@@ -99,51 +99,52 @@ header {
 
 
 .about-containar {
-   
-margin-top: 50px;
+
+    margin-top: 50px;
     font-size: 20px;
 
     font-weight: 700;
     line-height: 30px;
 }
 
-.about-containar{
-display: flex;
+.about-containar {
+    display: flex;
 
-justify-content: space-around;
+    justify-content: space-around;
 }
 
-.about-info{
+.about-info {
     color: #757575;
-text-align: center;
+    text-align: center;
 
-font-size: 20px;
+    font-size: 20px;
 
-font-weight: 400;
-line-height: 30px; 
+    font-weight: 400;
+    line-height: 30px;
 }
 
-.about-description{
+.about-description {
     color: #474747;
-margin-top: 1px;
-font-size: 13px;
+    margin-top: 1px;
+    font-size: 13px;
 
-font-weight: 700;
-line-height: 30px;
+    font-weight: 700;
+    line-height: 30px;
 }
 
-.my-info-tital{
-    text-align: center;color: #181818;
-   
+.my-info-tital {
+    text-align: center;
+    color: #181818;
+
 
     font-size: 35px;
-  
+
     font-weight: 700;
     margin-top: 130px;
 }
 
 
-.my-info-description{
+.my-info-description {
     text-align: center;
     font-size: 15px;
     padding: 20px 150px;
@@ -152,30 +153,95 @@ line-height: 30px;
 
 
 
-.skill-containar{
+.skill-containar {
     display: flex;
     border-radius: 5px;
-background: #FFF;
+    background: #FFF;
 
 
-margin: 50px 130px;
+    margin: 50px 130px;
 }
 
-.skill-chart{
+.skill-chart {
     margin: 50px 24px;
     text-align: center;
-    
+    background: #f8efe9;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    
+
 }
 
 
 
-.skill-description{
-font-size: 15px;
+.skill-description {
+    font-size: 15px;
 }
 
 
-.skill-img-tital{
+.skill-img-tital {
     font-size: 20px;
+}
+
+.summary-heading {
+    color: #181818;
+    text-align: center;
+
+    font-size: 35px;
+
+    font-weight: 700;
+
+}
+
+
+.summary-of-resume {
+    text-align: center;
+    font-size: 35px;
+   
+    font-weight: 700;
+}
+
+
+.summary-contranir{
+    display: flex;
+    gap: 70px;
+    margin: 0px 130px ;
+}
+
+
+.education-tital{
+
+    color: #474747;
+
+font-size: 25px;
+
+font-weight: 700;
+
+}
+
+.resume-sub{
+    color: #474747;
+   
+    font-size: 20px;
+    
+    font-weight: 700;
+   
+}
+
+.resume-university{
+    color: #757575;
+
+font-size: 15px;
+
+font-weight: 600;
+
+}
+
+.resume-info{
+
+    color:  #757575;
+
+font-size: 16px;
+
+
+font-weight: 400;
+line-height: 28px; 
 }
